@@ -1,4 +1,5 @@
 %% FIGURE 3 of the Collins & Khamassi 2021 book chapter
+%% author: Mehdi Khamassi (CNRS / Sorbonne)
 
 %% ILLUSTRATION OF A FUNCTION COMPATIBLE WITH PROSPECT THEORY
 
