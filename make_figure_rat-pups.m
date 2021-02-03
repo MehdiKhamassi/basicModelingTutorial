@@ -1,4 +1,5 @@
 %% FIGURE 1 of the Collins & Khamassi 2021 book chapter
+%% author: Mehdi Khamassi (CNRS / Sorbonne)
 
 % plot huddling time of rat pups as a function of temperature
 
@@ -42,8 +43,8 @@ plot([0:0.1:14],lineParameters(1).*[0:0.1:14]+lineParameters(2),'k')
 [lineParameters,R1,J]=nlinfit(tbl(:,1),tbl(:,2),@linearFunction,[-1 150]);
 plot([0:0.1:14],lineParameters(1).*[0:0.1:14]+lineParameters(2),'k','LineWidth',2)
 
-xlabel('Température (°C)')
-ylabel('Durée de blotissement (min)')
+xlabel('TempÃ©rature (Â°C)')
+ylabel('DurÃ©e de blotissement (min)')
 axis([0 14 -40 100])
 
 % plotting fitting errors
