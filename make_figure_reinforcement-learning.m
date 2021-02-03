@@ -1,4 +1,5 @@
 %% reinforcement learning model simulations for the Collins & Khamassi 2021 book chapter
+%% author: Anne G.E. Collins (Univ. Berkeley)
 
 clear all
 
